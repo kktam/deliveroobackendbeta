@@ -8554,7 +8554,7 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qs@^6.4.0, qs@^6.5.1, qs@^6.7.0:
+qs@^6.4.0, qs@^6.5.1, qs@^6.6.0, qs@^6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
@@ -10480,6 +10480,16 @@ strip-outer@^1.0.0:
   integrity sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==
   dependencies:
     escape-string-regexp "^1.0.2"
+
+stripe@^7.1.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-7.2.0.tgz#224a4fcb728b9ad978840e3c28cd984c9da46329"
+  integrity sha512-kpWYEXV5syPXVyTNtzdHEg6yFvVPwDJze5gu1KG9xWoSHaaPP2hJx1ihniRVNh0NZfS/PRPXIhLfPEifaq62Ng==
+  dependencies:
+    lodash.isplainobject "^4.0.6"
+    qs "^6.6.0"
+    safe-buffer "^5.1.1"
+    uuid "^3.3.2"
 
 style-loader@^0.23.1:
   version "0.23.1"
